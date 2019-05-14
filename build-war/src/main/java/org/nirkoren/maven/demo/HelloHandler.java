@@ -6,5 +6,10 @@ public class HelloHandler {
 		String hello = "Hello JAX DevOps members, What do you think about this conference?";
 		return hello;
 	}
+	
+	public String reply() {
+		String reply = "I quite like it.";
+		return reply;
+	}
 
 }
