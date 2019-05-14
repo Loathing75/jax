@@ -7,6 +7,7 @@
 		String prefix = "<B>Read info from Java class:</B> ";
 		HelloHandler handler = new HelloHandler();
 		out.print(prefix + handler.sayHello());
+		out.print(handler.reply());
 	%>
 </body>
 </html>
